@@ -35,26 +35,6 @@ RWin & \::AltTab
 RWin & BackSpace::ShiftAltTab
 SC138 & \::AltTab
 SC138 & BackSpace::ShiftAltTab
-SC11D & BackSpace::SendInput, ^{BackSpace}
-SC11D & Ins::SendInput, ^c
-SC11D & Del::SendInput, ^{Del}
-SC11D & Home::SendInput, ^{Home}
-SC11D & End::SendInput, ^{End}
-SC11D & PgUp::SendInput, ^{PgUp}
-SC11D & PgDn::SendInput, ^{PgDn}
-SC11D & Left::SendInput, ^{Left}
-SC11D & Right::SendInput, ^{Right}
-SC11D & Up::SendInput, ^{Up}
-SC11D & Down::SendInput, ^{Down}
-SC11D & =::SendInput, ^=
-SC11D & -::SendInput, ^-
-SC11D & [::SendInput, ^+{Tab}
-SC11D & ]::SendInput, ^{Tab}
-SC11D & \::SendInput, {Esc}
-SC11D & `;::SendInput, ^f
-SC11D & ,::SendInput, ^,
-SC11D & .::SendInput, ^.
-SC11D & /::SendInput, ^/
 RWin & S::RunAuSpy()
 
 ; Logoff: 0, Shutdown: 1, Reboot 2, Force: 4, Power Down: 8
@@ -602,3 +582,45 @@ CapsLock & [::SendInput, {Blind}^[
 CapsLock & [ Up::SendInput, {Blind}
 CapsLock & ]::SendInput, {Blind}^]
 CapsLock & ] Up::SendInput, {Blind}
+
+;
+; Right Ctrl
+;
+
+SC11D & WheelUp::SendInput, ^{WheelUp}
+SC11D & WheelDown::SendInput, ^{WheelDown}
+SC11D & LButton::SendInput, ^{LButton}
+SC11D & RButton::SendInput, ^{RButton}
+SC11D & BackSpace::SendInput, ^{BackSpace}
+SC11D & Ins::SendInput, ^c
+SC11D & Del::SendInput, ^{Del}
+SC11D & Home::SendInput, ^{Home}
+SC11D & End::SendInput, ^{End}
+SC11D & PgUp::SendInput, ^{PgUp}
+SC11D & PgDn::SendInput, ^{PgDn}
+SC11D & Left::SendInput, ^{Left}
+SC11D & Right::SendInput, ^{Right}
+SC11D & Up::SendInput, ^{Up}
+SC11D & Down::SendInput, ^{Down}
+SC11D & F1::SendInput, {Blind}^{f1}
+SC11D & F2::SendInput, {Blind}^{f2}
+SC11D & F3::SendInput, {Blind}^{f3}
+SC11D & F4::SendInput, {Blind}^{f4}
+SC11D & F5::SendInput, {Blind}^{f5}
+SC11D & F6::SendInput, {Blind}^{f6}
+SC11D & F7::SendInput, {Blind}^{f7}
+SC11D & F8::SendInput, {Blind}^{f8}
+SC11D & F9::SendInput, {Blind}^{f9}
+SC11D & F10::SendInput, {Blind}^{f10}
+SC11D & F11::SendInput, {Blind}^{f11}
+SC11D & F12::SendInput, {Blind}^{f12}
+SC11D & l::SendInput, ^l
+SC11D & =::SendInput, ^=
+SC11D & -::SendInput, ^-
+SC11D & [::SendInput, ^+{Tab}
+SC11D & ]::SendInput, ^{Tab}
+SC11D & \::SendInput, {Esc}
+SC11D & `;::SendInput, ^f
+SC11D & ,::SendInput, ^,
+SC11D & .::SendInput, ^.
+SC11D & /::SendInput, ^/
