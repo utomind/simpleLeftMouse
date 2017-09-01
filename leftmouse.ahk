@@ -587,6 +587,18 @@ CapsLock & ] Up::SendInput, {Blind}
 ; Right Ctrl
 ;
 
+#If GetKeyState("Win", "P")
+SC11D & Left::SendInput, #^{Left}
+SC11D & Right::SendInput, #^{Right}
+#If
+
+#If GetKeyState("MButton", "P")
+SC138 & WheelDown::AltTab
+SC138 & WheelUp::ShiftAltTab
+Alt & WheelDown::AltTab
+Alt & WheelUp::ShiftAltTab
+#If
+
 SC11D & WheelUp::SendInput, ^{WheelUp}
 SC11D & WheelDown::SendInput, ^{WheelDown}
 SC11D & LButton::SendInput, ^{LButton}
