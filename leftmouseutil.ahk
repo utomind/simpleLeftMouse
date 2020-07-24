@@ -1,7 +1,8 @@
 #SingleInstance force
 #Persistent ; DO NOT QUIT
 
-; Modified on 14 August, 2017
+;
+; Modified on 18 July, 2020
 ;
 ; Windows (#), Ctrl (^), Alt (!), Shift (+)
 ;
