@@ -1,3 +1,4 @@
+# Pull Request Test
 
 <h3>이 프로그램은 왼쪽 마우스 사용자를 위한 Autohotkey 프로그램입니다.</h3>
 
@@ -14,10 +15,10 @@ REGEDIT4
 "HomeHotKey"="c:\\documents\\leftmouseutil.ahk"
 </pre>
 
-+ autohotkey 프로그램은 확장자로 .ahk를 사용합니다.
-그러므로 아래의 코드를 다운로드 받아 컴퓨터에 적당한 폴더(예: c:\documents)에 저장할 때 leftmouse.ahk 라고 저장을 합니다.
-위의 레지스트리를 이용하여 등록하려면 c:\documents\leftmouse.ahk 라고 저장합니다.
-+ 주석은 ; (semicolon) 으로 시작합니다. 그러므로 맘에 안 드는 부분이 있으면 ; 으로 주석처리하면 됩니다.
+- autohotkey 프로그램은 확장자로 .ahk를 사용합니다.
+  그러므로 아래의 코드를 다운로드 받아 컴퓨터에 적당한 폴더(예: c:\documents)에 저장할 때 leftmouse.ahk 라고 저장을 합니다.
+  위의 레지스트리를 이용하여 등록하려면 c:\documents\leftmouse.ahk 라고 저장합니다.
+- 주석은 ; (semicolon) 으로 시작합니다. 그러므로 맘에 안 드는 부분이 있으면 ; 으로 주석처리하면 됩니다.
 
 <pre>
 #SingleInstance force
